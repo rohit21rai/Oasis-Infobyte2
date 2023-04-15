@@ -1,0 +1,419 @@
+
+@media only screen and (max-width: 480px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #f9004d;
+    color: white;
+    list-style: none;
+}
+
+nav.navbar {
+    position: fixed;
+    justify-content: end;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li.text {
+    margin-left: 5%;
+    font-size: 1.3rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+
+}
+.navbar li {
+    float: left;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .navbar li a {
+    text-decoration: none;
+    padding: 10px 25px;
+    color: white;
+    list-style-type: none;
+    font-size: 1.3rem;
+    background-color: #f9004d;
+    
+ }
+
+ .navbar li a:hover {
+    background-color: rgb(26, 23, 23);
+    color: white;
+    transition: 0.7s;
+    transform: scale(1.1);
+ }
+
+div.external {
+    background-color: black;
+}
+
+header {
+   /*  min-height: 100vh; */
+   height: 100vh;
+   width: 100%;
+    background-image: linear-gradient(
+        rgba(54, 51, 51, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(images/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.abcd {
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+    text-shadow: 2px 4px 4px 2px;
+    white-space: nowrap;
+}
+
+h1.asc {
+    font-size: 4.5rem;
+}
+p.dsc {
+    font-size: 2.3rem;
+}
+
+h2 {
+    margin-left: 5%;
+    padding-top: 5%;
+    font-size: 3.2rem;
+    color: white;
+}
+
+div.bjp {
+    
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    padding-left: 3%;
+    display: grid;
+    grid-template-columns: 25% 65%; 
+    column-gap: 5%;
+   justify-content: center;
+   background-color: rgb(27, 26, 26);
+   color: white;
+   border-radius: 20px;
+}
+div.top img {
+    border: 4px solid rgb(236, 230, 230);
+    margin-top: 10%;
+    max-width: 90%;
+    margin-left: 0%;
+    border-radius: 15px;
+    transition: ease .20s;
+}
+div.top img:hover {
+    transform: scale(1.1);
+}
+
+div.random {
+    line-height: 25px;
+    word-spacing: 3px;
+    padding-top: 8%;
+    
+}
+div.random1{
+    padding-top: 4%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 8%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    /* margin-left: 45%; */
+    margin-bottom: 2%;
+    color: white;
+}
+
+div.education {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 5%;
+    /* background-color: rgb(27, 26, 26); */
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+div.education img {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    max-width: 100%;
+}
+
+div.box1 {
+    background-color: rgb(27, 26, 26);
+    padding: 15% 15% 15% 15%;
+    border-radius: 15px;
+    color: white;
+}
+div.box2 {
+    background-color: rgb(27, 26, 26);
+    padding: 15% 15% 15% 15%;
+    border-radius: 15px;
+    color: white;
+}
+div.box3 {
+    background-color: rgb(27, 26, 26);
+    padding: 15% 15% 15% 15%;
+    border-radius: 15px;
+    color: white;
+}
+div.position {
+    padding-top: 5%;
+    word-spacing: 5px;
+}
+
+div.education a {
+    word-spacing: 5px;
+    justify-content: center;
+    line-height: 20px;
+    text-align: center;
+    color: #f9004d;
+    text-decoration: none;
+    transition: ease .40s;
+}
+
+  div.education a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+h4 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+div.skills {
+    background-color: rgb(27, 26, 26);
+    text-align: center;
+    margin-block-end: 5%;
+    margin-top: 2%;
+    font-size: larger;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 20px;
+}
+
+div.skills img{
+    max-width: 50%; 
+    padding: 8%;
+}
+div.html img {
+    max-width: 70%;
+}
+div.js img {
+    max-width: 100%;
+}
+div.mysql img {
+    max-width: 75%;
+}
+div.python img {
+    max-width: 100%;
+}
+
+div.certificate {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+div.certificate p {
+    font-size: 1.4rem;
+}
+
+div.certify img {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    border: 10px solid #f9004d;
+    padding: 3px;
+    margin-bottom: 5%;
+}
+
+h6 {
+    font-size: 5rem;
+    text-decoration: bold;
+    text-shadow: 4px 4px solid rgb(16, 15, 15);
+    color: white;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+div.service {
+    background-image: linear-gradient(
+        rgba(38, 37, 37, 0.685),
+        rgba(0, 0, 0, 0.662)
+      ),url(images/web\ designing.png);
+    background-size: cover;
+    color: white;
+    
+}
+div.service p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+div.txt1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3%;
+}
+div.txt {
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+
+div.cv {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+div.cv a {
+    display: inline-block;
+    border: 2px solid transparent;
+    background-color: #f9004d;
+    padding: 1.1%;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: ease .20s;
+    cursor: pointer;
+}
+div.cv a:hover {
+    border: 2px solid #f9004d;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+div.h7{
+    font-size: 4rem;
+    padding-top: 4%;
+    padding-left: 5%;
+    background-color: black;
+    color: white;
+}
+
+div.myself img{
+    display: inline-block;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: ease .20s;
+    cursor: pointer;
+    max-width: 80%;
+    position: relative;
+}
+
+div.myself img:hover {
+    border: 4px solid white;
+    transform: scale(1.1);
+}
+
+div.myself {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+}
+div.final {
+    margin-left: 10%;
+    word-spacing: 2px;
+    line-height: 20px;
+
+}
+div.writeups {
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+.contact-form form{
+    margin-top: 3%;
+    padding-left: 5%;
+    position: relative;
+    width: 100%;
+}
+.contact-form form input,
+form textarea{
+    margin-left: 5%;
+    width: 70%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    resize: none;
+}
+.contact-form form .btn {
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 180px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+.contact-form form .btn:hover {
+    border: 2px solid #f9004d;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:900px) and (min-width:481px) {
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+    }
